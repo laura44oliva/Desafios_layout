@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio2 </title>
+    <style media="screen" type="text/css">
+        body{
+            margin:0;
+            padding:0;
+        }
+        .main{
+            margin: 5px;
+            
+        }
+        .box{
+           
+            
+            width: 30%;
+            padding: 5px;
+            display: inline-block;
+            background-color: white;
+            position: relative;
+        }
+        .box_main{
+            display: flex;
+        }
+
+        .rectangulo{
+            height: 100px;
+            width: 400px;
+            left:0px;
+            top:0px;
+            position: absolute;
+           
+
+        }
+
+        .cuadrado{
+            height: 141px;
+            width: 100px;
+            left:0px;
+            top:0px;
+            position: absolute;           
+        }
+
+        .rec{
+            height: 141px;
+            width: 280px;
+            left:121px;
+            top:-302px;
+            position: absolute;
+
+        }
+
+        .d_rojo{
+            background-color: red;
+            position: relative;
+
+        }
+
+        .d_rojo2{
+            margin-top:20px ;
+            background-color: red;
+            position: relative;
+
+        }
+
+        .es_rec_rojo{
+            background-color: red;
+            position: relative;
+        }
+        .es_rec_amarillo{
+            background-color: yellow;
+            position:relative;
+
+        }
+
+        .ea_rec_negro{
+            background-color: black;
+            position: relative;
+            
+        }
+
+        .ea_rec_verde{
+            background-color: green;
+            
+            position:relative;
+        }
+        .ea_rec_blanco{
+            background-color: white;
+            position:relative;
+        }
+        .ea_rec_rojo{
+            background-color: red;
+            position:absolute;
+            height: 300px;
+            width: 100px;
+            z-index: 1;
+            margin-top: 5px;
+            margin-left: 5px;
+            padding-bottom: 0px;
+            left: 0px;
+            top:0px;
+        }
+
+        
+
+        .j_blanco{
+            height: 300px;
+            width: 400px;
+            background-color: white;
+            margin-left: 5px;
+            margin-top: 5px;
+            border-color: rgb(12, 4, 1);
+            border-style: solid;
+            border-width: 1px;
+           
+            
+        }
+
+        .j_circle{
+            height: 150px;
+            width: 150px;
+            background-color: red;
+            border-radius: 1000px;
+            left: 120px;
+            margin-top: 75px;
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="main">
+        
+        
+        <div class="box_main">
+            <div class="box">
+                <!--bandera españa-->   
+                <div class="rectangulo es_rec_rojo" > </div>
+                <div class="rectangulo es_rec_amarillo" > </div>
+                <div class="rectangulo es_rec_rojo" > </div>
+                <div><span>ESPAÑA</span></div>
+
+            </div>
+            
+            <div class="box">
+                <!--bandera dinamrca-->
+                <div class="rectangulo j_blanco" > </div>
+                <div class="cuadrado d_rojo" > </div>
+                <div class="cuadrado d_rojo2" > </div>
+                <div class="rec d_rojo" > </div>
+                <div class="rec d_rojo2" > </div>
+                
+            </div>  
+           
+            
+        </div>
+
+        <div class="box_main">
+            <div class="box">
+                <!--bandera ea--> 
+                <!--div class="rectangulo ea_rec_negro"></div-->
+                 <div class="rectangulo ea_rec_rojo" > </div>
+                 <div class="rectangulo ea_rec_verde" > </div>
+                <div class="rectangulo ea_rec_blanco" > </div>
+                <div class="rectangulo ea_rec_negro" > </div>
+                <div><span>EMIRATOS ARABES</span></div>
+                
+            </div>
+               
+               
+            
+            <div class="box">
+                <!--bandera japon-->
+                <div class="rectangulo j_blanco" > </div>
+                <div class="j_circle"></div>
+                
+                <div><span>japon</span></div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
